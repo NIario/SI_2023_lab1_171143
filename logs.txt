@@ -1,0 +1,29 @@
+$ git log
+commit a0ce9dd3bdb86c2257cd29c154c48386993b137b (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: NIario <shevofinki@gmail.com>
+Date:   Sun Apr 2 16:42:23 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 931eebdc37a6fef9998e53232bc0715647483932
+Merge: d25765b dc59d5f
+Author: NIario <shevofinki@gmail.com>
+Date:   Sun Apr 2 16:51:56 2023 +0200
+
+    Merge branch 'bug2'
+
+commit dc59d5f05472daf823deae2027eb6be8a6039521 (origin/bug2, bug2)
+Author: NIario <shevofinki@gmail.com>
+Date:   Sun Apr 2 16:38:58 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit d25765bac347591a7cfad712c601cbbb6f888334 (origin/bug1, bug1)
+Author: NIario <shevofinki@gmail.com>
+Date:   Sun Apr 2 16:36:20 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 83b4ce63e2b176c110292ff40b42a7721f5a7c9c
+Author: NIario <shevofinki@gmail.com>
+Date:   Sun Apr 2 16:08:01 2023 +0200

@@ -1,0 +1,49 @@
+cd SI_2023_lab1_171143  ---- change directory
+git init ---- inicijalizacija na git 
+git remote add origin https://github.com/NIario/SI_2023_lab1_171143.git ---- spojuvanje so remote repo
+nano README.md ---- kreiranje na README
+git add . ---- dodavanje na README
+git commit -m "Initial commit" --- commit na README 
+git config --global user.name "NIario" ---  Bidejki e private repozitorijum, dodadov user name 
+git config --global user.email "shevofinki@gmail.com" --- i email.
+nano SILab1.java --- Kreiranje na java file
+git add SILab1.java --- Dodavanje na istiot
+git commit -m "Add java class" --- komituvanje na java fajlot
+git push -u orign master --- sinhronizacija so remote repo
+git branch bug1 ---- kreiranje na granka bug1
+git branch bug2 ---- kreiranje na granka bug2
+git branch bug3 ---- kreiranje na granka bug3
+git checkout bug1 --- prefrluvanje na grankata bug1
+git commit -a -m "Fix wrong loop for reading" --- commit na izvrsena promena
+git checkout bug2 --- prefrluvanje na grankata bug2
+git commit -a -m "Fix wrong condition in filterOddNumbers" --- commit na izvrsena promena
+git checkout bug3 --- prefrluvanje na grankata bug3
+git commit -a -m "Fix method sumEvenNumbers" --- commit na izvrsena promena
+git push origin bug1 --- sinhronizacija na grankata bug1 so remote repoto
+git push origin bug2 --- sinhronizacija na grankata bug2 so remote repoto
+git push origin bug3 --- sinhronizacija na grankata bug3 so remote repoto
+git checkout master --- prefrluvanje na master granka
+git merge bug1 --- spojuvanje na master so bug1 grankata so Fast-forward metod
+git push origin master --- sinhronizacija na remote repo
+git merge bug2 --- spojuvanje na master so bug2 grankata so 'ort' strategy.
+git push origin master --- sinhronizacija na remote repo
+git checkout bug3 --- prefrluvanje na bug3 granka
+git rebase master --- izvrsuvanje na rebase komanda (promenite vo bug3 grankata se stavaat vo temp zona, potoa se dodavaat promenite od master grankata i na kraj se spojuvaat so promenite koi bea vo temp zonata - seto toa na bug3 granka)
+git checkout master --- prefrluvanje na master granka
+git merge bug3 --- spojuvanje na master so bug3 grankata so Fast-forward metod
+git push origin master ---- sinhronizacija na remote repo, master granka
+git push origin bug1 ---- sinhronizacija na remote repo , bug1 granka
+git push origin bug2 ---- sinhronizacija na remote repo , bug2 granka
+git push origin bug3 ---- sinhronizacija na remote repo , bug3 grank -- rejected, pa poradi toa
+git push --force origin bug3 --- isforsirana sinhronizacija na remote repo, bug3 granka
+nano logs.txt --- kreiranje na logs.txt
+git add . --- dodavanje na site untracked fajlovi
+git commit -a -m "Final commit" --- komit na logs.txt i 171143.txt
+git push origin master --- sinhronizacija na remote repo
+git push origin bug1
+git push origin bug2
+git push origin bug3
+
+
+
+
